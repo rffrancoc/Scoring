@@ -1,0 +1,153 @@
+columna,tipo,nulos_pct_total,nulos_desarrollo,categoria,razon,decision,auc
+grade,VARCHAR,0.0000,0.0000,score_LC,Resultado del modelo de Lending Club: benchmark,benchmark,
+installment,DOUBLE,0.0000,0.0000,score_LC,Resultado del modelo de Lending Club: benchmark,benchmark,0.5072
+int_rate,DOUBLE,0.0000,0.0000,score_LC,Resultado del modelo de Lending Club: benchmark,benchmark,0.6378
+sub_grade,VARCHAR,0.0000,0.0000,score_LC,Resultado del modelo de Lending Club: benchmark,benchmark,
+disbursement_method,VARCHAR,0.0000,0.0000,constante,Un solo valor,excluir,
+policy_code,DOUBLE,0.0000,0.0000,constante,Un solo valor,excluir,
+issue_d,VARCHAR,0.0000,0.0000,diseño,Usada para filtrar y partir la muestra,excluir,
+issue_dt,DATE,0.0000,0.0000,diseño,Usada para filtrar y partir la muestra,excluir,
+term,VARCHAR,0.0000,0.0000,diseño,Usada para filtrar y partir la muestra,excluir,
+collection_recovery_fee,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.8612
+debt_settlement_flag,VARCHAR,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,
+debt_settlement_flag_date,VARCHAR,0.9840,0.9925,fuga,Se genera después de aprobar el crédito,excluir,
+deferral_term,DOUBLE,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+funded_amnt_inv,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.5199
+hardship_amount,DOUBLE,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_dpd,DOUBLE,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_end_date,VARCHAR,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_flag,VARCHAR,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_last_payment_amount,DOUBLE,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_length,DOUBLE,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_loan_status,VARCHAR,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_payoff_balance_amount,DOUBLE,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_reason,VARCHAR,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_start_date,VARCHAR,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_status,VARCHAR,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+hardship_type,VARCHAR,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+last_credit_pull_d,VARCHAR,0.0001,0.0001,fuga,Se genera después de aprobar el crédito,excluir,
+last_fico_range_high,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.8860
+last_fico_range_low,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.8860
+last_pymnt_amnt,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.7669
+last_pymnt_d,VARCHAR,0.0007,0.0009,fuga,Se genera después de aprobar el crédito,excluir,
+next_pymnt_d,VARCHAR,0.9998,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+orig_projected_additional_accrued_interest,DOUBLE,0.9980,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+out_prncp,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,
+out_prncp_inv,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,
+payment_plan_start_date,VARCHAR,0.9976,1.0000,fuga,Se genera después de aprobar el crédito,excluir,
+pymnt_plan,VARCHAR,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,
+recoveries,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.9712
+settlement_amount,DOUBLE,0.9840,0.9925,fuga,Se genera después de aprobar el crédito,excluir,0.5000
+settlement_date,VARCHAR,0.9840,0.9925,fuga,Se genera después de aprobar el crédito,excluir,
+settlement_percentage,DOUBLE,0.9840,0.9925,fuga,Se genera después de aprobar el crédito,excluir,0.5000
+settlement_status,VARCHAR,0.9840,0.9925,fuga,Se genera después de aprobar el crédito,excluir,
+settlement_term,DOUBLE,0.9840,0.9925,fuga,Se genera después de aprobar el crédito,excluir,0.5070
+total_pymnt,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.7658
+total_pymnt_inv,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.7657
+total_rec_int,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.5658
+total_rec_late_fee,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.5375
+total_rec_prncp,DOUBLE,0.0000,0.0000,fuga,Se genera después de aprobar el crédito,excluir,0.8346
+desc,VARCHAR,0.8728,0.5575,identificador/texto,Identificador o texto libre,excluir,
+emp_title,VARCHAR,0.0670,0.0687,identificador/texto,Identificador o texto libre,excluir,
+id,VARCHAR,0.0000,0.0000,identificador/texto,Identificador o texto libre,excluir,
+member_id,VARCHAR,1.0000,1.0000,identificador/texto,Identificador o texto libre,excluir,
+title,VARCHAR,0.0002,0.0000,identificador/texto,Identificador o texto libre,excluir,
+url,VARCHAR,0.0000,0.0000,identificador/texto,Identificador o texto libre,excluir,
+zip_code,VARCHAR,0.0000,0.0000,identificador/texto,Identificador o texto libre,excluir,
+all_util,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+annual_inc_joint,DOUBLE,0.9996,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+dti_joint,DOUBLE,0.9996,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+il_util,DOUBLE,0.9782,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+inq_fi,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+inq_last_12m,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+max_bal_bc,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+mths_since_rcnt_il,DOUBLE,0.9755,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+open_acc_6m,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+open_act_il,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+open_il_12m,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+open_il_24m,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+open_rv_12m,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+open_rv_24m,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+revol_bal_joint,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_chargeoff_within_12_mths,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_collections_12_mths_ex_med,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_earliest_cr_line,VARCHAR,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_fico_range_high,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_fico_range_low,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_inq_last_6mths,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_mort_acc,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_mths_since_last_major_derog,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_num_rev_accts,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_open_acc,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_open_act_il,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+sec_app_revol_util,DOUBLE,1.0000,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+total_bal_il,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+total_cu_tl,DOUBLE,0.9747,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+verification_status_joint,VARCHAR,0.9996,1.0000,no_disponible,100% nulos en desarrollo,excluir,
+loan_status,VARCHAR,0.0000,0.0000,objetivo,Es la variable que predecimos,excluir,
+acc_now_delinq,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5003
+acc_open_past_24mths,DOUBLE,0.0102,0.0419,permitida,Conocida al momento de aprobar,usar,0.5605
+addr_state,VARCHAR,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,
+annual_inc,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5886
+application_type,VARCHAR,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,
+avg_cur_bal,DOUBLE,0.0383,0.1567,permitida,Conocida al momento de aprobar,usar,0.5625
+bc_open_to_buy,DOUBLE,0.0201,0.0504,permitida,Conocida al momento de aprobar,usar,0.5753
+bc_util,DOUBLE,0.0207,0.0508,permitida,Conocida al momento de aprobar,usar,0.5517
+chargeoff_within_12_mths,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5002
+collections_12_mths_ex_med,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5003
+delinq_2yrs,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5002
+delinq_amnt,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5003
+dti,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5581
+earliest_cr_line,VARCHAR,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,
+emp_length,VARCHAR,0.0599,0.0467,permitida,Conocida al momento de aprobar,usar,
+fico_range_high,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5959
+fico_range_low,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5959
+funded_amnt,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5200
+home_ownership,VARCHAR,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,
+initial_list_status,VARCHAR,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,
+inq_last_6mths,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5445
+loan_amnt,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5200
+mo_sin_old_il_acct,DOUBLE,0.0743,0.1941,permitida,Conocida al momento de aprobar,usar,0.5305
+mo_sin_old_rev_tl_op,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5443
+mo_sin_rcnt_rev_tl_op,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5468
+mo_sin_rcnt_tl,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5494
+mort_acc,DOUBLE,0.0102,0.0419,permitida,Conocida al momento de aprobar,usar,0.5554
+mths_since_last_delinq,DOUBLE,0.5051,0.5727,permitida,Conocida al momento de aprobar,usar,0.5005
+mths_since_last_major_derog,DOUBLE,0.7319,0.8261,permitida,Conocida al momento de aprobar,usar,0.5031
+mths_since_last_record,DOUBLE,0.8347,0.9038,permitida,Conocida al momento de aprobar,usar,0.5021
+mths_since_recent_bc,DOUBLE,0.0194,0.0493,permitida,Conocida al momento de aprobar,usar,0.5506
+mths_since_recent_bc_dlq,DOUBLE,0.7528,0.8054,permitida,Conocida al momento de aprobar,usar,0.5017
+mths_since_recent_inq,DOUBLE,0.1168,0.1543,permitida,Conocida al momento de aprobar,usar,0.5414
+mths_since_recent_revol_delinq,DOUBLE,0.6532,0.7101,permitida,Conocida al momento de aprobar,usar,0.5002
+num_accts_ever_120_pd,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5005
+num_actv_bc_tl,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5121
+num_actv_rev_tl,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5348
+num_bc_sats,DOUBLE,0.0220,0.0902,permitida,Conocida al momento de aprobar,usar,0.5018
+num_bc_tl,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5119
+num_il_tl,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5246
+num_op_rev_tl,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5137
+num_rev_accts,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5074
+num_rev_tl_bal_gt_0,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5350
+num_sats,DOUBLE,0.0220,0.0902,permitida,Conocida al momento de aprobar,usar,0.5017
+num_tl_120dpd_2m,DOUBLE,0.0737,0.1582,permitida,Conocida al momento de aprobar,usar,0.5001
+num_tl_30dpd,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5003
+num_tl_90g_dpd_24m,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5005
+num_tl_op_past_12m,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5541
+open_acc,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5000
+pct_tl_nvr_dlq,DOUBLE,0.0384,0.1575,permitida,Conocida al momento de aprobar,usar,0.5080
+percent_bc_gt_75,DOUBLE,0.0207,0.0504,permitida,Conocida al momento de aprobar,usar,0.5530
+pub_rec,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5005
+pub_rec_bankruptcies,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5008
+purpose,VARCHAR,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,
+revol_bal,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5280
+revol_util,DOUBLE,0.0005,0.0007,permitida,Conocida al momento de aprobar,usar,0.5454
+tax_liens,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5005
+tot_coll_amt,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5028
+tot_cur_bal,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5586
+tot_hi_cred_lim,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5681
+total_acc,DOUBLE,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,0.5312
+total_bal_ex_mort,DOUBLE,0.0102,0.0419,permitida,Conocida al momento de aprobar,usar,0.5307
+total_bc_limit,DOUBLE,0.0102,0.0419,permitida,Conocida al momento de aprobar,usar,0.5697
+total_il_high_credit_limit,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5244
+total_rev_hi_lim,DOUBLE,0.0382,0.1567,permitida,Conocida al momento de aprobar,usar,0.5539
+verification_status,VARCHAR,0.0000,0.0000,permitida,Conocida al momento de aprobar,usar,
